@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="description" content="A tool to cut BOX switches to prevent them from cracking keycaps stems">
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+        <title>Nubrist - One tool to cut them all</title>
+        <style>
+            body {
+                background-color: #000;
+                margin: 0px;
+            }
+            @font-face {
+                font-family: 'norse';
+                src: url('./Norse.otf');
+            }
+
+            @font-face {
+                font-family: 'norse-bold';
+                src: url('./Norse-Bold.otf');
+            }
+
+            #background {
+                display: flex;
+                /* background-image: url('./images/1020_non_int.png'); */
+                width: 100vw;
+                height: 100vh;
+                position: fixed;
+                z-index: 0;
+                background-size: cover !important;
+            }
+
+            #title {
+                text-align: center;
+                position: relative;
+                /* z-index: 1; */
+            }
+
+            #title h1 {
+                font-family: 'norse';
+                font-size: 5.8em;
+                /* font-weight: bold; */
+                /* text-shadow: 3px 3px 5px #FFF; */
+                letter-spacing: .2em;
+                margin: 20px;
+                color: white;
+            }
+
+            #title img {
+                width: 100vw;
+                height: auto;
+            }
+            h2 {
+                font-family: 'norse';
+                font-size: 2em;
+                color: white;
+            }
+
+            form {
+                /* position:relative; */
+                text-align:center;
+            }
+
+            #description {
+                margin: 8vh 8vw 4vh 8vw;
+                color:white;
+            }
+
+            h3 {
+                font-family: 'norse';
+            }
+
+            #description p {
+                font-family: monospace;
+            }
+
+            #FAQ_and_pre_order input,textarea {
+                display:block;
+                width: 50vw;
+                margin: 1vh auto;
+            }
+
+            #FAQ_and_pre_order h3 {
+                text-align:center;
+                color: white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="background">
+        </div>
+        <section id="title">
+            <div>
+                <img alt="" src="./Head_banner_50.jpg"/>
+                <h1>Nubrist</h1>
+                <h2>One tool to cut them all</h2>
+            </div>
+        </section>
+        <section id="description">
+            <h3>What is it?</h3>
+            <p>
+                It is a tool to cut away the nubs on the BOX switches.
+            </p>
+            <h3>Why I need it?</h3>
+            <p>ABS keycaps, particularly those manufactured by GMK, are prone to stress and breakage when fitted on BOX switches <a href="https://geekhack.org/index.php?topic=96323.0">[Discussion here]</a>.</br>
+                This appers to be caused by the nubs present on the horizontal arm of the "cross" which are 1.30&#177;0.02 mm thick <a href="https://cdn.shopify.com/s/files/1/3099/8088/files/BOX_Navy.pdf?5816470357010718290">[source]</a>.</br>
+                There is a general consensus on ~1.28 mm to be the ideal thickness of the X axis of the "cross" in order to get the best fit without cause damage to the keycaps.</br>
+                This tool does exactly this: it shaves off those evil nubs making the BOX switches safe to be used with all keycaps.
+            </p>
+
+            <h3>How long will it last?</h3>
+            <p>
+                The tool is forged by elf master blacksmiths from the finest elvish steel...ehm, one of the hardest steel available.</br>
+                It has been manifactured using tape cutting tech, which is .0125 mm precise.</br>
+                Tools built with same material are used to cut <strong>1 mm steel sheets 10.000 times</strong> before blunting so it will stay sharp forever if used only on plastics.
+            </p>
+
+            <h3>How I use it?</h3>
+            <p>
+                Find the right orientation by gently placing the tool on the "cross", when you feel the energy flowing through it push it on the stem, slaying those evil nubs without mercy! Pull it off and you should now have the orizontal arm of the "cross" rectified to 1.28 mm.
+            </p>
+
+            <h3>Shipping</h3>
+            <p>
+                I'm based in Italy and I will ship Middle-earth wide.
+            </p>
+
+            <h3>Timeline</h3>
+            <p>
+                I am planning to get orders up to the end of February and to start shipping by mid-March.
+                If I am getting a decent amount of orders I will start manufacturing them ASAP and I will ship on a first come first served basis.
+            </p>
+
+            <h3>Price</h3>
+            <p>
+                Now the hard bit...</br>
+                The Nubrist manufacture doesn't scale up very well... it takes a master elf 1 to 1.5 hour(s) to cut every single tool...</br>
+                The pre-order price is 55 € plus shipping.
+            </p>
+        </section>
+        <section id="FAQ_and_pre_order">
+            <h3>Please don't hesitate to contact me with any question</h3>
+            <form method="POST" action="https://formspree.io/antoniotrabalza@gmail.com">
+                <input name="name" type="text" placeholder="Your name"/>
+                <input type="email" name="email" placeholder="Your email"/>
+                <input name="order" type="text" placeholder="Do you want to pre-order?"/>
+                <textarea name="message" placeholder="Your message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <!-- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"> -->
+        <!-- <input type="hidden" name="cmd" value="_s-xclick"> -->
+        <!-- <input type="hidden" name="hosted_button_id" value="ABZQGU9XQERAL"> -->
+        <!-- <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!"> -->
+        <!-- <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1"> -->
+        <!-- </form> -->
+    </body>
+</html>
